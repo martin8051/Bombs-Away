@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MenuScene" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/MenuScene" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:/Users/marti/Desktop/CSCI191/common/bin" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/MenuScene" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:/Users/marti/Desktop/CSCI191/common/bin" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/Users/marti/Desktop/CSCI191/common/include" />
+		</Compiler>
+		<Linker>
+			<Add library="../CSCI191/common/lib/libSOIL.a" />
+			<Add library="../CSCI191/common/lib/libirrKlang.a" />
+			<Add library="glut32" />
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add library="winmm" />
+			<Add library="gdi32" />
+			<Add directory="C:/Users/marti/Desktop/CSCI191/common/lib" />
+		</Linker>
+		<Unit filename="include/_1collisionFlag.h" />
+		<Unit filename="include/_1completed.h" />
+		<Unit filename="include/_1continue.h" />
+		<Unit filename="include/_1enms.h" />
+		<Unit filename="include/_1gameClock.h" />
+		<Unit filename="include/_1glLight.h" />
+		<Unit filename="include/_1health.h" />
+		<Unit filename="include/_1hud.h" />
+		<Unit filename="include/_1inputs.h" />
+		<Unit filename="include/_1lose.h" />
+		<Unit filename="include/_1parallax.h" />
+		<Unit filename="include/_1pause.h" />
+		<Unit filename="include/_1pauseMenu.h" />
+		<Unit filename="include/_1player.h" />
+		<Unit filename="include/_1retry_or_menu.h" />
+		<Unit filename="include/_1textureLoader.h" />
+		<Unit filename="include/_1timer.h" />
+		<Unit filename="include/_Landing.h" />
+		<Unit filename="include/_credits.h" />
+		<Unit filename="include/_digit.h" />
+		<Unit filename="include/_gameOver.h" />
+		<Unit filename="include/_gameTimer.h" />
+		<Unit filename="include/_glLight.h" />
+		<Unit filename="include/_help.h" />
+		<Unit filename="include/_highScore.h" />
+		<Unit filename="include/_hsDigit.h" />
+		<Unit filename="include/_imageLoader.h" />
+		<Unit filename="include/_inputs.h" />
+		<Unit filename="include/_intro1.h" />
+		<Unit filename="include/_intro2.h" />
+		<Unit filename="include/_intro3.h" />
+		<Unit filename="include/_lvlSelect.h" />
+		<Unit filename="include/_menu.h" />
+		<Unit filename="include/_menuScene.h" />
+		<Unit filename="include/_score.h" />
+		<Unit filename="include/_textureLoader.h" />
+		<Unit filename="include/_timer.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/_1collisionFlag.cpp" />
+		<Unit filename="src/_1completed.cpp" />
+		<Unit filename="src/_1continue.cpp" />
+		<Unit filename="src/_1enms.cpp" />
+		<Unit filename="src/_1gameClock.cpp" />
+		<Unit filename="src/_1glLight.cpp" />
+		<Unit filename="src/_1health.cpp" />
+		<Unit filename="src/_1hud.cpp" />
+		<Unit filename="src/_1inputs.cpp" />
+		<Unit filename="src/_1lose.cpp" />
+		<Unit filename="src/_1parallax.cpp" />
+		<Unit filename="src/_1pause.cpp" />
+		<Unit filename="src/_1pauseMenu.cpp" />
+		<Unit filename="src/_1player.cpp" />
+		<Unit filename="src/_1retry_or_menu.cpp" />
+		<Unit filename="src/_1textureLoader.cpp" />
+		<Unit filename="src/_1timer.cpp" />
+		<Unit filename="src/_Landing.cpp" />
+		<Unit filename="src/_credits.cpp" />
+		<Unit filename="src/_digit.cpp" />
+		<Unit filename="src/_gameOver.cpp" />
+		<Unit filename="src/_gameTimer.cpp" />
+		<Unit filename="src/_glLight.cpp" />
+		<Unit filename="src/_help.cpp" />
+		<Unit filename="src/_highScore.cpp" />
+		<Unit filename="src/_hsDigit.cpp" />
+		<Unit filename="src/_imageLoader.cpp" />
+		<Unit filename="src/_inputs.cpp" />
+		<Unit filename="src/_intro1.cpp" />
+		<Unit filename="src/_intro2.cpp" />
+		<Unit filename="src/_intro3.cpp" />
+		<Unit filename="src/_lvlSelect.cpp" />
+		<Unit filename="src/_menu.cpp" />
+		<Unit filename="src/_menuScene.cpp" />
+		<Unit filename="src/_score.cpp" />
+		<Unit filename="src/_textureLoader.cpp" />
+		<Unit filename="src/_timer.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

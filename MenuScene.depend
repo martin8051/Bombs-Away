@@ -1,0 +1,559 @@
+# depslib dependency file v1.0
+1589342973 source:c:\users\marti\desktop\menuscene\main.cpp
+	<windows.h>
+	<stdlib.h>
+	<iostream>
+	<windows.h>
+	<_menuScene.h>
+
+1586364352 c:\users\marti\desktop\menuscene\include\_glscene.h
+	<windows.h>
+	<GL/glut.h>
+	<iostream>
+
+1585200943 c:\users\marti\desktop\csci191\common\include\gl\glut.h
+	<windows.h>
+	<stdlib.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1588118156 source:c:\users\marti\desktop\menuscene\src\_gllight.cpp
+	"_glLight.h"
+
+1588563167 c:\users\marti\desktop\menuscene\include\_gllight.h
+	<_menuScene.h>
+
+1586368886 source:c:\users\marti\desktop\menuscene\src\_glscene.cpp
+	"_glScene.h"
+	<_glLight.h>
+	<_Model.h>
+	<_inputs.h>
+	<_parallax.h>
+	<_player.h>
+	<_Landing.h>
+	<_popUp.h>
+	<_menu.h>
+
+1586364352 c:\users\marti\desktop\menuscene\include\_model.h
+	<windows.h>
+	<GL/glut.h>
+	<iostream>
+
+1588992284 c:\users\marti\desktop\menuscene\include\_inputs.h
+	<windows.h>
+	<_Landing.h>
+	<_menu.h>
+	<_help.h>
+	<_lvlSelect.h>
+	<_highScore.h>
+	<fstream>
+	<_hsDigit.h>
+	<GL/glut.h>
+	<_intro1.h>
+	<_intro2.h>
+	<_intro3.h>
+	<_credits.h>
+
+1586364352 c:\users\marti\desktop\menuscene\include\_parallax.h
+	<iostream>
+	<string>
+	<gl/gl.h>
+	<windows.h>
+	<_textureLoader.h>
+
+1588117200 c:\users\marti\desktop\menuscene\include\_textureloader.h
+	<SOIL.h>
+	<GL/gl.h>
+	<iostream>
+
+1585200943 c:\users\marti\desktop\csci191\common\include\soil.h
+
+1586364352 c:\users\marti\desktop\menuscene\include\_player.h
+	<GL/gl.h>
+	<_textureLoader.h>
+	<_timer.h>
+
+1588116466 c:\users\marti\desktop\menuscene\include\_timer.h
+	<time.h>
+
+1588117200 c:\users\marti\desktop\menuscene\include\_landing.h
+	<iostream>
+	<string>
+	<gl/gl.h>
+	<windows.h>
+	<_textureLoader.h>
+
+1586365104 c:\users\marti\desktop\menuscene\include\_popup.h
+	<iostream>
+	<string>
+	<gl/gl.h>
+	<windows.h>
+	<_textureLoader.h>
+
+1588992057 c:\users\marti\desktop\menuscene\include\_menu.h
+	<iostream>
+	<string>
+	<gl/gl.h>
+	<windows.h>
+	<_textureLoader.h>
+
+1588117106 c:\users\marti\desktop\menuscene\include\_help.h
+	<iostream>
+	<string>
+	<gl/gl.h>
+	<windows.h>
+	<_textureLoader.h>
+
+1588118156 source:c:\users\marti\desktop\menuscene\src\_help.cpp
+	"_help.h"
+
+1588993754 source:c:\users\marti\desktop\menuscene\src\_inputs.cpp
+	"_inputs.h"
+
+1588118156 source:c:\users\marti\desktop\menuscene\src\_landing.cpp
+	"_Landing.h"
+	"_timer.h"
+
+1588118156 source:c:\users\marti\desktop\menuscene\src\_lvlselect.cpp
+	"_lvlSelect.h"
+	"_Landing.h"
+	"_timer.h"
+
+1588117200 c:\users\marti\desktop\menuscene\include\_lvlselect.h
+	<iostream>
+	<string>
+	<gl/gl.h>
+	<windows.h>
+	<_textureLoader.h>
+
+1588118156 source:c:\users\marti\desktop\menuscene\src\_menu.cpp
+	"_menu.h"
+	<windows.h>
+	<GL/glut.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1586364352 source:c:\users\marti\desktop\menuscene\src\_model.cpp
+	"_model.h"
+	<_textureLoader.h>
+
+1586364352 source:c:\users\marti\desktop\menuscene\src\_parallax.cpp
+	"_parallax.h"
+
+1586364352 source:c:\users\marti\desktop\menuscene\src\_player.cpp
+	"_player.h"
+
+1586366966 source:c:\users\marti\desktop\menuscene\src\_popup.cpp
+	"_popUp.h"
+
+1588118192 source:c:\users\marti\desktop\menuscene\src\_textureloader.cpp
+	"_textureLoader.h"
+
+1588118156 source:c:\users\marti\desktop\menuscene\src\_timer.cpp
+	"_timer.h"
+
+1589349386 c:\users\marti\desktop\menuscene\include\_menuscene.h
+	<windows.h>
+	<GL/glut.h>
+	<iostream>
+	<_glLight.h>
+	<_inputs.h>
+	<_Landing.h>
+	<_menu.h>
+	<_help.h>
+	<_lvlSelect.h>
+	<fstream>
+	<_highScore.h>
+	<_hsDigit.h>
+	<_intro1.h>
+	<_intro2.h>
+	<_intro3.h>
+	<_credits.h>
+	<string>
+	<_1glLight.h>
+	<_1inputs.h>
+	<_1parallax.h>
+	<_1player.h>
+	<_1enms.h>
+	<_1collisionFlag.h>
+	<_1health.h>
+	<_1lose.h>
+	<_1retry_or_menu.h>
+	<_1gameClock.h>
+	<_1completed.h>
+	<_1continue.h>
+	<_1pause.h>
+	<_1pauseMenu.h>
+	<_digit.h>
+	<_gameOver.h>
+	<_score.h>
+	<_gameTimer.h>
+	<_imageLoader.h>
+	<bits/stdc++.h>
+	<SNDS/irrKlang.h>
+
+1589356111 source:c:\users\marti\desktop\menuscene\src\_menuscene.cpp
+	"_menuScene.h"
+
+1588118156 source:c:\users\marti\desktop\menuscene\src\_highscore.cpp
+	"_highScore.h"
+
+1588117020 c:\users\marti\desktop\menuscene\include\_highscore.h
+	<iostream>
+	<string>
+	<gl/gl.h>
+	<windows.h>
+	<_textureLoader.h>
+
+1588117020 c:\users\marti\desktop\menuscene\include\_hsdigit.h
+	<iostream>
+	<string>
+	<gl/gl.h>
+	<windows.h>
+	<_textureLoader.h>
+	<GL/glut.h>
+
+1588118156 source:c:\users\marti\desktop\menuscene\src\_hsdigit.cpp
+	"_hsDigit.h"
+	<_glLight.h>
+
+1588116560 c:\users\marti\desktop\menuscene\include\_intro1.h
+	<iostream>
+	<string>
+	<gl/gl.h>
+	<windows.h>
+	<_textureLoader.h>
+
+1588116544 c:\users\marti\desktop\menuscene\include\_intro2.h
+	<iostream>
+	<string>
+	<gl/gl.h>
+	<windows.h>
+	<_textureLoader.h>
+
+1588116466 c:\users\marti\desktop\menuscene\include\_intro3.h
+	<iostream>
+	<string>
+	<gl/gl.h>
+	<windows.h>
+	<_textureLoader.h>
+
+1588118156 source:c:\users\marti\desktop\menuscene\src\_intro1.cpp
+	"_intro1.h"
+
+1588118156 source:c:\users\marti\desktop\menuscene\src\_intro2.cpp
+	"_intro2.h"
+
+1588118156 source:c:\users\marti\desktop\menuscene\src\_intro3.cpp
+	"_intro3.h"
+
+1588381618 c:\users\marti\desktop\menuscene\include\_credits.h
+	<iostream>
+	<string>
+	<gl/gl.h>
+	<windows.h>
+	<_textureLoader.h>
+
+1588382730 source:c:\users\marti\desktop\menuscene\src\_credits.cpp
+	"_credits.h"
+
+1588631428 c:\users\marti\desktop\menuscene\include\_1glscene.h
+
+1588677896 c:\users\marti\desktop\menuscene\include\_1gllight.h
+	<_menuScene.h>
+
+1589346747 c:\users\marti\desktop\menuscene\include\_1inputs.h
+	<windows.h>
+	<_1parallax.h>
+	<_1player.h>
+	<_1pauseMenu.h>
+	<_1enms.h>
+	<_1gameClock.h>
+	<_gameTimer.h>
+
+1588628467 c:\users\marti\desktop\menuscene\include\_1parallax.h
+	<iostream>
+	<string>
+	<gl/gl.h>
+	<windows.h>
+	<_1textureLoader.h>
+
+1588628468 c:\users\marti\desktop\menuscene\include\_1textureloader.h
+	<SOIL.h>
+	<GL/gl.h>
+	<iostream>
+
+1588938061 c:\users\marti\desktop\menuscene\include\_1player.h
+	<GL/gl.h>
+	<_1textureLoader.h>
+	<_1timer.h>
+
+1588628468 c:\users\marti\desktop\menuscene\include\_1timer.h
+	<time.h>
+
+1588628467 c:\users\marti\desktop\menuscene\include\_1pausemenu.h
+	<iostream>
+	<gl/gl.h>
+	<windows.h>
+	<_1textureLoader.h>
+
+1588940881 c:\users\marti\desktop\menuscene\include\_1enms.h
+	<GL/gl.h>
+	<_1textureLoader.h>
+	<_1timer.h>
+	<cstdlib>
+
+1588936021 c:\users\marti\desktop\menuscene\include\_1gameclock.h
+	<iostream>
+	<gl/gl.h>
+	<windows.h>
+	<_1timer.h>
+	<_1textureLoader.h>
+
+1588628467 c:\users\marti\desktop\menuscene\include\_1collisionflag.h
+	<cmath>
+
+1588628467 c:\users\marti\desktop\menuscene\include\_1health.h
+	<iostream>
+	<string>
+	<gl/gl.h>
+	<windows.h>
+	<_1textureLoader.h>
+
+1588628467 c:\users\marti\desktop\menuscene\include\_1lose.h
+	<iostream>
+	<string>
+	<gl/gl.h>
+	<windows.h>
+	<_1textureLoader.h>
+
+1588628467 c:\users\marti\desktop\menuscene\include\_1retry_or_menu.h
+	<iostream>
+	<string>
+	<gl/gl.h>
+	<windows.h>
+	<_1textureLoader.h>
+
+1588628467 c:\users\marti\desktop\menuscene\include\_1completed.h
+	<iostream>
+	<string>
+	<gl/gl.h>
+	<windows.h>
+	<_1textureLoader.h>
+
+1588628467 c:\users\marti\desktop\menuscene\include\_1continue.h
+	<iostream>
+	<string>
+	<gl/gl.h>
+	<windows.h>
+	<_1textureLoader.h>
+
+1588628467 c:\users\marti\desktop\menuscene\include\_1pause.h
+	<iostream>
+	<gl/gl.h>
+	<windows.h>
+	<_1textureLoader.h>
+
+1588629106 source:c:\users\marti\desktop\menuscene\src\_1collisionflag.cpp
+	"_1collisionFlag.h"
+
+1588629106 source:c:\users\marti\desktop\menuscene\src\_1completed.cpp
+	"_1completed.h"
+
+1588629106 source:c:\users\marti\desktop\menuscene\src\_1continue.cpp
+	"_1continue.h"
+
+1588941370 source:c:\users\marti\desktop\menuscene\src\_1enms.cpp
+	"_1enms.h"
+
+1588936064 source:c:\users\marti\desktop\menuscene\src\_1gameclock.cpp
+	"_1gameClock.h"
+
+1588629106 source:c:\users\marti\desktop\menuscene\src\_1gllight.cpp
+	"_1glLight.h"
+
+1588930872 source:c:\users\marti\desktop\menuscene\src\_1health.cpp
+	"_1health.h"
+
+1588629106 source:c:\users\marti\desktop\menuscene\src\_1hud.cpp
+	"_1hud.h"
+
+1588628467 c:\users\marti\desktop\menuscene\include\_1hud.h
+
+1589345990 source:c:\users\marti\desktop\menuscene\src\_1inputs.cpp
+	"_1inputs.h"
+
+1588629106 source:c:\users\marti\desktop\menuscene\src\_1lose.cpp
+	"_1lose.h"
+
+1588629107 source:c:\users\marti\desktop\menuscene\src\_1parallax.cpp
+	"_1parallax.h"
+
+1588629107 source:c:\users\marti\desktop\menuscene\src\_1pause.cpp
+	"_1pause.h"
+
+1588629107 source:c:\users\marti\desktop\menuscene\src\_1pausemenu.cpp
+	"_1pauseMenu.h"
+
+1588941334 source:c:\users\marti\desktop\menuscene\src\_1player.cpp
+	"_1player.h"
+
+1588629107 source:c:\users\marti\desktop\menuscene\src\_1retry_or_menu.cpp
+	"_1retry_or_menu.h"
+
+1588629107 source:c:\users\marti\desktop\menuscene\src\_1textureloader.cpp
+	"_1textureLoader.h"
+
+1588629107 source:c:\users\marti\desktop\menuscene\src\_1timer.cpp
+	"_1timer.h"
+
+1589342594 c:\users\marti\desktop\menuscene\include\_digit.h
+	<iostream>
+	<gl/gl.h>
+	<windows.h>
+	<_timer.h>
+	<_textureLoader.h>
+
+1589342594 c:\users\marti\desktop\menuscene\include\_gameover.h
+	<iostream>
+	<gl/gl.h>
+	<windows.h>
+	<_textureLoader.h>
+	<string>
+
+1589342594 c:\users\marti\desktop\menuscene\include\_score.h
+	<vector>
+	<_digit.h>
+
+1589342594 c:\users\marti\desktop\menuscene\include\_gametimer.h
+	<iostream>
+	<gl/gl.h>
+	<windows.h>
+	<_timer.h>
+	<_textureLoader.h>
+	<_digit.h>
+	<vector>
+	<string>
+
+1589342594 c:\users\marti\desktop\menuscene\include\_imageloader.h
+	<_textureLoader.h>
+	<string>
+
+1587501949 c:\users\marti\desktop\csci191\common\include\snds\irrklang.h
+	"ik_irrKlangTypes.h"
+	"ik_vec3d.h"
+	"ik_IRefCounted.h"
+	"ik_IVirtualRefCounted.h"
+	"ik_ESoundOutputDrivers.h"
+	"ik_ESoundEngineOptions.h"
+	"ik_EStreamModes.h"
+	"ik_SAudioStreamFormat.h"
+	"ik_ISoundEngine.h"
+	"ik_ISoundSource.h"
+	"ik_ISound.h"
+	"ik_IAudioStream.h"
+	"ik_IAudioStreamLoader.h"
+	"ik_ISoundEffectControl.h"
+	"ik_ISoundStopEventReceiver.h"
+	"ik_IFileFactory.h"
+	"ik_IFileReader.h"
+	"ik_ISoundDeviceList.h"
+	"ik_IAudioRecorder.h"
+	"ik_ISoundMixedOutputReceiver.h"
+
+1587501949 c:\users\marti\desktop\csci191\common\include\snds\ik_irrklangtypes.h
+	<wchar.h>
+
+1587501949 c:\users\marti\desktop\csci191\common\include\snds\ik_vec3d.h
+	<math.h>
+	"ik_irrKlangTypes.h"
+
+1587501949 c:\users\marti\desktop\csci191\common\include\snds\ik_irefcounted.h
+	"ik_irrKlangTypes.h"
+
+1587501949 c:\users\marti\desktop\csci191\common\include\snds\ik_ivirtualrefcounted.h
+	"ik_irrKlangTypes.h"
+
+1587501949 c:\users\marti\desktop\csci191\common\include\snds\ik_esoundoutputdrivers.h
+
+1587501948 c:\users\marti\desktop\csci191\common\include\snds\ik_esoundengineoptions.h
+
+1587501949 c:\users\marti\desktop\csci191\common\include\snds\ik_estreammodes.h
+
+1587501949 c:\users\marti\desktop\csci191\common\include\snds\ik_saudiostreamformat.h
+	"ik_IRefCounted.h"
+
+1587501949 c:\users\marti\desktop\csci191\common\include\snds\ik_isoundengine.h
+	"ik_IRefCounted.h"
+	"ik_vec3d.h"
+	"ik_ISoundSource.h"
+	"ik_ISound.h"
+	"ik_EStreamModes.h"
+	"ik_IFileFactory.h"
+	"ik_ISoundMixedOutputReceiver.h"
+
+1587501949 c:\users\marti\desktop\csci191\common\include\snds\ik_isoundsource.h
+	"ik_IVirtualRefCounted.h"
+	"ik_vec3d.h"
+	"ik_EStreamModes.h"
+	"ik_SAudioStreamFormat.h"
+
+1587501949 c:\users\marti\desktop\csci191\common\include\snds\ik_isound.h
+	"ik_IVirtualRefCounted.h"
+	"ik_ISoundEffectControl.h"
+	"ik_vec3d.h"
+
+1587501949 c:\users\marti\desktop\csci191\common\include\snds\ik_isoundeffectcontrol.h
+	"ik_IVirtualRefCounted.h"
+	"ik_vec3d.h"
+
+1587501949 c:\users\marti\desktop\csci191\common\include\snds\ik_ifilefactory.h
+	"ik_IRefCounted.h"
+
+1587501949 c:\users\marti\desktop\csci191\common\include\snds\ik_isoundmixedoutputreceiver.h
+	"ik_IRefCounted.h"
+	"ik_SAudioStreamFormat.h"
+
+1587501949 c:\users\marti\desktop\csci191\common\include\snds\ik_iaudiostream.h
+	"ik_IRefCounted.h"
+	"ik_SAudioStreamFormat.h"
+
+1587501949 c:\users\marti\desktop\csci191\common\include\snds\ik_iaudiostreamloader.h
+	"ik_IRefCounted.h"
+	"ik_IFileReader.h"
+
+1587501949 c:\users\marti\desktop\csci191\common\include\snds\ik_ifilereader.h
+	"ik_IRefCounted.h"
+
+1587501949 c:\users\marti\desktop\csci191\common\include\snds\ik_isoundstopeventreceiver.h
+	"ik_IRefCounted.h"
+	"ik_SAudioStreamFormat.h"
+
+1587501949 c:\users\marti\desktop\csci191\common\include\snds\ik_isounddevicelist.h
+	"ik_IRefCounted.h"
+
+1587501949 c:\users\marti\desktop\csci191\common\include\snds\ik_iaudiorecorder.h
+	"ik_IRefCounted.h"
+	"ik_ISoundSource.h"
+
+1589342593 source:c:\users\marti\desktop\menuscene\src\_digit.cpp
+	"_digit.h"
+
+1589342593 source:c:\users\marti\desktop\menuscene\src\_gameover.cpp
+	"_gameOver.h"
+	<string>
+
+1589342593 source:c:\users\marti\desktop\menuscene\src\_gametimer.cpp
+	"_gameTimer.h"
+	<_digit.h>
+	<vector>
+	<string>
+
+1589342593 source:c:\users\marti\desktop\menuscene\src\_imageloader.cpp
+	"_imageLoader.h"
+
+1589342593 source:c:\users\marti\desktop\menuscene\src\_score.cpp
+	"_score.h"
+	<_digit.h>
+	<vector>
+
